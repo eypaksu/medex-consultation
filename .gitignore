@@ -1,0 +1,70 @@
+## Build output
+build/
+out/
+dist/
+target/
+*.jar
+*.war
+*.ear
+*.class
+*.log
+
+## Gradle
+.gradle/
+
+## IDE files (IntelliJ)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+## IDE files (Eclipse / STS)
+.classpath
+.project
+.settings/
+.factorypath
+.springBeans
+.recommenders
+
+## IDE files (VS Code)
+.vscode/
+
+## OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.*.swp
+.#*
+*.bak
+
+## Local config / secrets
+.env
+*.env
+local.properties
+secrets.yml
+application-local.properties
+application-dev.properties
+
+## Logs and temp
+logs/
+tmp/
+temp/
+*.log
+*.tmp
+
+## Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+## Coverage and reports
+coverage/
+.coverage
+.jacoco/
+reports/
+build/reports/
+target/site/
